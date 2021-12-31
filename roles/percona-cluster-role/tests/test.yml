@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  remote_user: root
+  sudo: true
+  vars:
+          - db_name: mydb
+          - db_user: test
+          - db_host: localhost
+          - db_user_password: password
+          - sqldebug: false
+  roles:
+    - percona-cluster-role
+

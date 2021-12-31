@@ -1,0 +1,17 @@
+---
+galaxy_info:
+        author: "Ayush Rastogi"
+        company: FOSS
+        license: BSD
+        min_ansible_version: 1.4
+        platforms:
+                - name: Ubuntu
+                  versions:
+			  - xenial
+			  - trusty
+                - name: EL 
+                  versions:
+                          - 7
+        categories:
+                - database
+dependecies: []
